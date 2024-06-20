@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("/Appointment.jpg");
+
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+  max-width: 10000px;
+  padding: 40px;
+  background-color:  lightblue;
+  box-shadow: 2px 20px 50px 10px  #000000 ;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #141313;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: rgb(255, 0, 0);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+  
+<div class="bg-img">
+  <a href="index.html" target="main" ><b><U> * BACK *</U></b></a>
+    <center>
+   <h2> Book your Appoinment here with best treatments </h2>
+</center>
+  <form action="/action_page.php" class="container">
+    <center> <a href="/index.html" style="font-family: 'Protest Revolution', sans-serif;" ><b> Health Easy Online</b></a></center>
+    <h1>Book Appoinment</h1>
+    <form>
+    <label for="Name">Name :</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="Name" class="form-control" id="Name" placeholder="Enter Name" name="Name" autocomplete="off"><br><br>
+    <label for="email">Mobile number :</label>
+    <input type="Mobile number" class="form-control" id="phone" placeholder="Mobile number" name="Mobile number"><br><br>
+    <label for="email">Date of Birth :</label>&nbsp&nbsp&nbsp&nbsp
+    <input type="Date of Birth" class="form-control" id="Date of Birth" placeholder="Date of Birth" name="Date of Birth"><br><br>
+    <label for="email">Address:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="Address" class="form-control" id="Address" placeholder="Address" name="Address"><br><br>
+    <label for="email">Speciality:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="Doctors/Speciality/Issues/Treatments/" class="form-control" id="Doctors/Issues/Treatments/" 
+    placeholder="Doctors/Issues/Treatments/" name="Doctors/Issues/Treatments/"><br><br><br>
+    
+    <label for="specialization"> specialization:</label>&nbsp
+    <select name="specialization" id="specialization">
+      <option value="Dentist">Dentist</option>
+      <option value="Orthopedic">Orthopedic</option>
+      <option value="General Physician">General Physician</option>
+      <option value="Gynacologic">Gynacologic</option>
+      <option value="Dermatologist">Dermetologist</option>
+    </select><br><br>
+    <label for=">Issues">Issues:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <select name=">Issues" id=">Issues">
+      <option value=" Pimples"> Pimples</option>
+      <option value= Hairfall"> Hairfall</option>
+      <option value=" Weight loss">Weight loss</option>
+      <option value="Pregnancy ">Pregnancy </option>
+      <option value=" child care"> child care</option>
+      <option value=" Diabetes"> Diabetes</option>
+      <option value="  BPlow,BPhigh"> BPlow,BPhigh</option>
+    </select><br><br>
+    <label for="Treatments">Treatments:</label>&nbsp&nbsp&nbsp&nbsp
+    <select name="Treatments" id="Treatments">
+      <option value="DentalImplant">Denatl Implant</option>
+      <option value="Dental Braces">Denatl Braces</option>
+      <option value="Knee Replacemnet">Knee Replacemnet</option>
+      <option value="knee pain">Knee pain</option>
+      <option value="shoulder Replacemnet">Shoulder Pain</option>
+      <option value="spinal Surgery">Spinal pain</option>
+      <option value="Misscarage Treatments">Misscarage Treatments</option>
+      <option value="MTP">MTP</option>
+      <option value="Hair Transplant">Hair Transplant</option>
+      <option value="Lasik Surgery">Lasik Surgery</option>
+    </select><br>
+    <center><input type="button"  value="Book Now" ><br><br><br></center>
+   
+
+  </form>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:url(/bg\ for\ web.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+ 
+    float: right;
+    list-style-type: none;
+
+    margin-top: 45px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(18, 106, 137);
+    color:red;
+}
+ul li.active a{
+    color: blueviolet;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    left: 50%; 
+    
+
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+
+}
+
+
+    

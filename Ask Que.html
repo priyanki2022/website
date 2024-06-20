@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("/ask\ quetsion.jpg");
+
+  min-height: 650px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 40px;
+  max-width: 500px;
+  padding: 20px;
+  background-color: lightblue;
+  box-shadow: 2px 20px 50px 10px  #000000 ;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <a href="/index.html" target="main" ><b><U> * BACK *</U></b></a>
+    <center>
+   <h2> Get brief answers for your health queries from top Doctors. Its FREE!</h2>
+</center>
+  <form action="/action_page.php" class="container">
+   <center> <a href="/index.html" style="font-family: 'Protest Revolution', sans-serif;" ><b> Health Easy Online</b></a></center>
+    <h1>What is your Questions.....</h1>
+    <input type="text" name="t1"><br>
+    <p> I  m looking for...</p> 
+   <input name="radio" id="Just information" type="radio" checked>
+   <label for="Just information" class="radio_radioText_"> Just information</label>
+   <input name="radio" id="Treatment Details" type="radio" checked>
+   <label for="Treatment Details" class="radio_radioText_">Treatment Details</label> 
+   <p> 
+   Where Should We send Secure Notification 
+   </p>
+    <input type="email" placeholder="Your email address" required="" id="email" value="">
+    <input type="button" value="Enter"><br><br>
+  </form>
+</div>
+</body>
+</html>
